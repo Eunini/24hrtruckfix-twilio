@@ -190,6 +190,15 @@ app.use("/", urlShortenerRoutes);
 // Admin routes are mounted at root since they include their full path
 app.use("/", adminRoutes);
 
+// Health check endpoint for Render
+app.get("/health", (req, res) => {
+  res.status(200).json({ 
+    status: "ok", 
+    message: "Server is healthy",
+    timestamp: new Date().toISOString()
+  });
+});
+
 // Error handling middleware
 app.use((err, req, res, next) => {
   console.error(err.stack);
