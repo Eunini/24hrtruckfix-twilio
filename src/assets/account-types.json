@@ -1,0 +1,37 @@
+[
+  {
+    "label": "Broker",
+    "id": 1,
+    "key": "broker"
+  },
+  {
+    "label": "Carrier",
+    "id": 2,
+    "key": "carrier"
+  },
+  {
+    "label": "Dispatcher",
+    "id": 3,
+    "key": "dispatcher"
+  },
+  {
+    "label": "Mobile Mechanic",
+    "id": 4,
+    "key": "mobileMechanic"
+  },
+  {
+    "label": "CDL Driver",
+    "id": 5,
+    "key": "cdlDriver"
+  },
+  {
+    "label": "Locksmith",
+    "id": 6,
+    "key": "lockSmith"
+  },
+  {
+    "label": "CDL Owner Operator",
+    "id": 7,
+    "key": "cdlOwnerOperator"
+  }
+]

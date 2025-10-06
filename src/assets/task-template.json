@@ -1,0 +1,23 @@
+[
+  {
+    "template": "Template"
+  },
+  {
+    "template": "Mobile_Mechanic"
+  },
+  {
+    "template": "Request_for_DL,Ins,_Reg"
+  },
+  {
+    "template": "Inspection"
+  },
+  {
+    "template": "Carrier_Documents"
+  },
+  {
+    "template": "Challenger_Load_and_Billing"
+  },
+  {
+    "template": "Test_Custom_Templates"
+  }
+]

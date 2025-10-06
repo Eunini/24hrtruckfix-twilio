@@ -1,0 +1,58 @@
+{
+  "broker": [
+    {
+      "pickup": 1,
+      "delivery": 0
+    }
+  ],
+  "carrier": [
+    {
+      "pickup": 1,
+      "delivery": 0,
+      "repairRequest": 2
+    }
+  ],
+  "dispatcher": [
+    {
+      "pickup": 1,
+      "delivery": 0,
+      "appointment": 3
+    }
+  ],
+  "mobileMechanic": [
+    {
+      "repairRequest": 2,
+      "appointment": 3
+    }
+  ],
+  "cdlDriver": [
+    {
+      "repairRequest": 2
+    }
+  ],
+  "locksmith": [
+    {
+      "appointment": 3,
+      "repairRequest": 2
+    }
+  ],
+  "OOCDL": [
+    {
+      "pickup": 1,
+      "delivery": 0,
+      "repairRequest": 2
+    }
+  ],
+  "vendor": [
+    {
+      "appointment": 3,
+      "repairRequest": 2
+    }
+  ],
+  "welder": [
+    {
+      "appointment": 3,
+      "repairRequest": 2
+    }
+  ]
+}

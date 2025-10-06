@@ -1,0 +1,24 @@
+{
+  "name": "mcpserver",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "new-ncp.js",
+  "scripts": {
+    "start": "node new-ncp.js",
+    "dev": "node --watch new-ncp.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "MongoDB MCP Server using official MCP SDK",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.16.0",
+    "axios": "^1.12.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.0.0",
+    "openai": "^5.2.0"
+  }
+}
